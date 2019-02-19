@@ -1,0 +1,34 @@
+header {
+    width: 100%;
+    padding: 4rem 0;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.title {
+    font-family: 'Varela Round';
+    font-size: 2.5em;
+}
+
+.checkout {
+    float: right;
+    margin: 0 1em;
+    font-size: 1.4em;
+    border-radius: 15px;
+    border: 2px solid #4CAF50;
+    color: white;
+    background-color: transparent;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.checkout>button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.checkout-active {
+    background-color: #4CAF50
+}

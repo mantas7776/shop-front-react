@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    id="product-list"
+  >
+    <inject-ProductComponent-with-cart
+      key="1"
+      product={
+        Object {
+          "description": "test",
+          "id": 1,
+          "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+          "name": "test2",
+          "price": 10,
+        }
+      }
+    />
+    <inject-ProductComponent-with-cart
+      key="2"
+      product={
+        Object {
+          "description": "test2",
+          "id": 2,
+          "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+          "name": "test4",
+          "price": 15,
+        }
+      }
+    />
+    <inject-ProductComponent-with-cart
+      key="3"
+      product={
+        Object {
+          "description": "test3",
+          "id": 3,
+          "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+          "name": "test4",
+          "price": 15,
+        }
+      }
+    />
+    <inject-ProductComponent-with-cart
+      key="4"
+      product={
+        Object {
+          "description": "test4",
+          "id": 4,
+          "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+          "name": "test4",
+          "price": 15,
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Should render product properly 1`] = `
+<inject-ProductComponent-with-cart
+  product={
+    Object {
+      "description": "test",
+      "id": 1,
+      "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+      "name": "test2",
+      "price": 10,
+    }
+  }
+/>
+`;

@@ -1,0 +1,29 @@
+[{
+		"id": 1,
+		"name": "test2",
+		"price": 10,
+		"image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+		"description": "test"
+	},
+	{
+		"id": 2,
+		"name": "test4",
+		"price": 15,
+		"image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+		"description": "test2"
+	},
+	{
+		"id": 3,
+		"name": "test4",
+		"price": 15,
+		"image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+		"description": "test3"
+	},
+	{
+		"id": 4,
+		"name": "test4",
+		"price": 15,
+		"image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+		"description": "test4"
+	}
+]

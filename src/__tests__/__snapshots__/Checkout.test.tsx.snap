@@ -1,0 +1,1743 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render checkout product 1`] = `
+<inject-CheckoutProduct-with-cart
+  cart={
+    Cart {
+      "cleanCart": [Function],
+    }
+  }
+  product={
+    Object {
+      "amount": 1,
+      "description": "test",
+      "id": 1,
+      "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+      "name": "test2",
+      "price": 10,
+    }
+  }
+>
+  <CheckoutProduct
+    cart={
+      Cart {
+        "cleanCart": [Function],
+      }
+    }
+    product={
+      Object {
+        "amount": 1,
+        "description": "test",
+        "id": 1,
+        "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+        "name": "test2",
+        "price": 10,
+      }
+    }
+  >
+    <div
+      className="checkout-prod clearfix"
+    >
+      <div
+        className="checkout-image"
+      >
+        <img
+          className="img-responsive product-img"
+          src="https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b"
+        />
+      </div>
+      <div
+        className="checkout-name"
+      >
+        <span
+          className="vert-align"
+        >
+          test2
+        </span>
+      </div>
+      <div
+        className="checkout-price"
+      >
+        <span
+          className="vert-align"
+        >
+          10
+          €
+        </span>
+      </div>
+      <div
+        className="checkout-amount"
+      >
+        <span
+          className="vert-align"
+        >
+          1
+        </span>
+      </div>
+      <div
+        className="checkout-actions"
+      >
+        <button
+          className="btn btn-primary checkout-action vert-align hor-align"
+          onClick={[Function]}
+        >
+          X
+        </button>
+      </div>
+    </div>
+  </CheckoutProduct>
+</inject-CheckoutProduct-with-cart>
+`;
+
+exports[`Should render checkout products 1`] = `
+<Provider
+  cart={
+    Cart {
+      "cleanCart": [Function],
+      "products": Array [
+        Object {
+          "amount": 5,
+          "description": "test",
+          "id": 1,
+          "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+          "name": "test2",
+          "price": 10,
+          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+            "defaultEnhancer": [Function],
+            "keysAtom": Atom$$1 {
+              "diffValue": 0,
+              "isBeingObserved": false,
+              "isPendingUnobservation": false,
+              "lastAccessedBy": 0,
+              "lowestObserverState": 2,
+              "name": "ObservableArray@5[..].keys",
+              "observers": Set {},
+            },
+            "name": "ObservableArray@5[..]",
+            "pendingKeys": Map {
+              "cheerio" => false,
+              "$$typeof" => false,
+              "nodeType" => false,
+              "@@__IMMUTABLE_ITERABLE__@@" => false,
+              "@@__IMMUTABLE_RECORD__@@" => false,
+              "_isMockFunction" => false,
+              "toJSON" => false,
+            },
+            "proxy": [Circular],
+            "target": Object {
+              "amount": 5,
+              "description": "test",
+              "id": 1,
+              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+              "name": "test2",
+              "price": 10,
+              Symbol(mobx administration): [Circular],
+            },
+            "values": Map {
+              "id" => 1,
+              "name" => "test2",
+              "price" => 10,
+              "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+              "description" => "test",
+              "amount" => 5,
+            },
+          },
+        },
+        Object {
+          "amount": 1,
+          "description": "test2",
+          "id": 2,
+          "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+          "name": "test4",
+          "price": 15,
+          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+            "defaultEnhancer": [Function],
+            "keysAtom": Atom$$1 {
+              "diffValue": 0,
+              "isBeingObserved": false,
+              "isPendingUnobservation": false,
+              "lastAccessedBy": 0,
+              "lowestObserverState": 2,
+              "name": "ObservableArray@5[..].keys",
+              "observers": Set {},
+            },
+            "name": "ObservableArray@5[..]",
+            "pendingKeys": Map {
+              "cheerio" => false,
+              "$$typeof" => false,
+              "nodeType" => false,
+              "@@__IMMUTABLE_ITERABLE__@@" => false,
+              "@@__IMMUTABLE_RECORD__@@" => false,
+              "_isMockFunction" => false,
+              "toJSON" => false,
+            },
+            "proxy": [Circular],
+            "target": Object {
+              "amount": 1,
+              "description": "test2",
+              "id": 2,
+              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+              "name": "test4",
+              "price": 15,
+              Symbol(mobx administration): [Circular],
+            },
+            "values": Map {
+              "id" => 2,
+              "name" => "test4",
+              "price" => 15,
+              "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+              "description" => "test2",
+              "amount" => 1,
+            },
+          },
+        },
+      ],
+      Symbol(mobx did run lazy initializers): true,
+      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+        "defaultEnhancer": [Function],
+        "keysAtom": Atom$$1 {
+          "diffValue": 0,
+          "isBeingObserved": false,
+          "isPendingUnobservation": false,
+          "lastAccessedBy": 0,
+          "lowestObserverState": 2,
+          "name": "Cart@6.keys",
+          "observers": Set {},
+        },
+        "name": "Cart@6",
+        "target": [Circular],
+        "values": Map {
+          "products" => Array [
+            Object {
+              "amount": 5,
+              "description": "test",
+              "id": 1,
+              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+              "name": "test2",
+              "price": 10,
+              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                "defaultEnhancer": [Function],
+                "keysAtom": Atom$$1 {
+                  "diffValue": 0,
+                  "isBeingObserved": false,
+                  "isPendingUnobservation": false,
+                  "lastAccessedBy": 0,
+                  "lowestObserverState": 2,
+                  "name": "ObservableArray@5[..].keys",
+                  "observers": Set {},
+                },
+                "name": "ObservableArray@5[..]",
+                "pendingKeys": Map {
+                  "cheerio" => false,
+                  "$$typeof" => false,
+                  "nodeType" => false,
+                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                  "@@__IMMUTABLE_RECORD__@@" => false,
+                  "_isMockFunction" => false,
+                  "toJSON" => false,
+                },
+                "proxy": [Circular],
+                "target": Object {
+                  "amount": 5,
+                  "description": "test",
+                  "id": 1,
+                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "name": "test2",
+                  "price": 10,
+                  Symbol(mobx administration): [Circular],
+                },
+                "values": Map {
+                  "id" => 1,
+                  "name" => "test2",
+                  "price" => 10,
+                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "description" => "test",
+                  "amount" => 5,
+                },
+              },
+            },
+            Object {
+              "amount": 1,
+              "description": "test2",
+              "id": 2,
+              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+              "name": "test4",
+              "price": 15,
+              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                "defaultEnhancer": [Function],
+                "keysAtom": Atom$$1 {
+                  "diffValue": 0,
+                  "isBeingObserved": false,
+                  "isPendingUnobservation": false,
+                  "lastAccessedBy": 0,
+                  "lowestObserverState": 2,
+                  "name": "ObservableArray@5[..].keys",
+                  "observers": Set {},
+                },
+                "name": "ObservableArray@5[..]",
+                "pendingKeys": Map {
+                  "cheerio" => false,
+                  "$$typeof" => false,
+                  "nodeType" => false,
+                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                  "@@__IMMUTABLE_RECORD__@@" => false,
+                  "_isMockFunction" => false,
+                  "toJSON" => false,
+                },
+                "proxy": [Circular],
+                "target": Object {
+                  "amount": 1,
+                  "description": "test2",
+                  "id": 2,
+                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "name": "test4",
+                  "price": 15,
+                  Symbol(mobx administration): [Circular],
+                },
+                "values": Map {
+                  "id" => 2,
+                  "name" => "test4",
+                  "price" => 15,
+                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "description" => "test2",
+                  "amount" => 1,
+                },
+              },
+            },
+          ],
+          "cart" => Array [
+            Object {
+              "amount": 5,
+              "description": "test",
+              "id": 1,
+              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+              "name": "test2",
+              "price": 10,
+              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                "defaultEnhancer": [Function],
+                "keysAtom": Atom$$1 {
+                  "diffValue": 0,
+                  "isBeingObserved": false,
+                  "isPendingUnobservation": false,
+                  "lastAccessedBy": 0,
+                  "lowestObserverState": 2,
+                  "name": "ObservableArray@5[..].keys",
+                  "observers": Set {},
+                },
+                "name": "ObservableArray@5[..]",
+                "pendingKeys": Map {
+                  "cheerio" => false,
+                  "$$typeof" => false,
+                  "nodeType" => false,
+                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                  "@@__IMMUTABLE_RECORD__@@" => false,
+                  "_isMockFunction" => false,
+                  "toJSON" => false,
+                },
+                "proxy": [Circular],
+                "target": Object {
+                  "amount": 5,
+                  "description": "test",
+                  "id": 1,
+                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "name": "test2",
+                  "price": 10,
+                  Symbol(mobx administration): [Circular],
+                },
+                "values": Map {
+                  "id" => 1,
+                  "name" => "test2",
+                  "price" => 10,
+                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "description" => "test",
+                  "amount" => 5,
+                },
+              },
+            },
+            Object {
+              "amount": 1,
+              "description": "test2",
+              "id": 2,
+              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+              "name": "test4",
+              "price": 15,
+              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                "defaultEnhancer": [Function],
+                "keysAtom": Atom$$1 {
+                  "diffValue": 0,
+                  "isBeingObserved": false,
+                  "isPendingUnobservation": false,
+                  "lastAccessedBy": 0,
+                  "lowestObserverState": 2,
+                  "name": "ObservableArray@5[..].keys",
+                  "observers": Set {},
+                },
+                "name": "ObservableArray@5[..]",
+                "pendingKeys": Map {
+                  "cheerio" => false,
+                  "$$typeof" => false,
+                  "nodeType" => false,
+                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                  "@@__IMMUTABLE_RECORD__@@" => false,
+                  "_isMockFunction" => false,
+                  "toJSON" => false,
+                },
+                "proxy": [Circular],
+                "target": Object {
+                  "amount": 1,
+                  "description": "test2",
+                  "id": 2,
+                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "name": "test4",
+                  "price": 15,
+                  Symbol(mobx administration): [Circular],
+                },
+                "values": Map {
+                  "id" => 2,
+                  "name" => "test4",
+                  "price" => 15,
+                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "description" => "test2",
+                  "amount" => 1,
+                },
+              },
+            },
+          ],
+          "total" => 65,
+        },
+      },
+    }
+  }
+>
+  <inject-Checkout-with-cart>
+    <Checkout
+      cart={
+        Cart {
+          "cleanCart": [Function],
+          "products": Array [
+            Object {
+              "amount": 5,
+              "description": "test",
+              "id": 1,
+              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+              "name": "test2",
+              "price": 10,
+              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                "defaultEnhancer": [Function],
+                "keysAtom": Atom$$1 {
+                  "diffValue": 0,
+                  "isBeingObserved": false,
+                  "isPendingUnobservation": false,
+                  "lastAccessedBy": 0,
+                  "lowestObserverState": 2,
+                  "name": "ObservableArray@5[..].keys",
+                  "observers": Set {},
+                },
+                "name": "ObservableArray@5[..]",
+                "pendingKeys": Map {
+                  "cheerio" => false,
+                  "$$typeof" => false,
+                  "nodeType" => false,
+                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                  "@@__IMMUTABLE_RECORD__@@" => false,
+                  "_isMockFunction" => false,
+                  "toJSON" => false,
+                },
+                "proxy": [Circular],
+                "target": Object {
+                  "amount": 5,
+                  "description": "test",
+                  "id": 1,
+                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "name": "test2",
+                  "price": 10,
+                  Symbol(mobx administration): [Circular],
+                },
+                "values": Map {
+                  "id" => 1,
+                  "name" => "test2",
+                  "price" => 10,
+                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "description" => "test",
+                  "amount" => 5,
+                },
+              },
+            },
+            Object {
+              "amount": 1,
+              "description": "test2",
+              "id": 2,
+              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+              "name": "test4",
+              "price": 15,
+              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                "defaultEnhancer": [Function],
+                "keysAtom": Atom$$1 {
+                  "diffValue": 0,
+                  "isBeingObserved": false,
+                  "isPendingUnobservation": false,
+                  "lastAccessedBy": 0,
+                  "lowestObserverState": 2,
+                  "name": "ObservableArray@5[..].keys",
+                  "observers": Set {},
+                },
+                "name": "ObservableArray@5[..]",
+                "pendingKeys": Map {
+                  "cheerio" => false,
+                  "$$typeof" => false,
+                  "nodeType" => false,
+                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                  "@@__IMMUTABLE_RECORD__@@" => false,
+                  "_isMockFunction" => false,
+                  "toJSON" => false,
+                },
+                "proxy": [Circular],
+                "target": Object {
+                  "amount": 1,
+                  "description": "test2",
+                  "id": 2,
+                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "name": "test4",
+                  "price": 15,
+                  Symbol(mobx administration): [Circular],
+                },
+                "values": Map {
+                  "id" => 2,
+                  "name" => "test4",
+                  "price" => 15,
+                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "description" => "test2",
+                  "amount" => 1,
+                },
+              },
+            },
+          ],
+          Symbol(mobx did run lazy initializers): true,
+          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+            "defaultEnhancer": [Function],
+            "keysAtom": Atom$$1 {
+              "diffValue": 0,
+              "isBeingObserved": false,
+              "isPendingUnobservation": false,
+              "lastAccessedBy": 0,
+              "lowestObserverState": 2,
+              "name": "Cart@6.keys",
+              "observers": Set {},
+            },
+            "name": "Cart@6",
+            "target": [Circular],
+            "values": Map {
+              "products" => Array [
+                Object {
+                  "amount": 5,
+                  "description": "test",
+                  "id": 1,
+                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "name": "test2",
+                  "price": 10,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "ObservableArray@5[..].keys",
+                      "observers": Set {},
+                    },
+                    "name": "ObservableArray@5[..]",
+                    "pendingKeys": Map {
+                      "cheerio" => false,
+                      "$$typeof" => false,
+                      "nodeType" => false,
+                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                      "@@__IMMUTABLE_RECORD__@@" => false,
+                      "_isMockFunction" => false,
+                      "toJSON" => false,
+                    },
+                    "proxy": [Circular],
+                    "target": Object {
+                      "amount": 5,
+                      "description": "test",
+                      "id": 1,
+                      "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                      "name": "test2",
+                      "price": 10,
+                      Symbol(mobx administration): [Circular],
+                    },
+                    "values": Map {
+                      "id" => 1,
+                      "name" => "test2",
+                      "price" => 10,
+                      "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                      "description" => "test",
+                      "amount" => 5,
+                    },
+                  },
+                },
+                Object {
+                  "amount": 1,
+                  "description": "test2",
+                  "id": 2,
+                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "name": "test4",
+                  "price": 15,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "ObservableArray@5[..].keys",
+                      "observers": Set {},
+                    },
+                    "name": "ObservableArray@5[..]",
+                    "pendingKeys": Map {
+                      "cheerio" => false,
+                      "$$typeof" => false,
+                      "nodeType" => false,
+                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                      "@@__IMMUTABLE_RECORD__@@" => false,
+                      "_isMockFunction" => false,
+                      "toJSON" => false,
+                    },
+                    "proxy": [Circular],
+                    "target": Object {
+                      "amount": 1,
+                      "description": "test2",
+                      "id": 2,
+                      "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                      "name": "test4",
+                      "price": 15,
+                      Symbol(mobx administration): [Circular],
+                    },
+                    "values": Map {
+                      "id" => 2,
+                      "name" => "test4",
+                      "price" => 15,
+                      "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                      "description" => "test2",
+                      "amount" => 1,
+                    },
+                  },
+                },
+              ],
+              "cart" => Array [
+                Object {
+                  "amount": 5,
+                  "description": "test",
+                  "id": 1,
+                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "name": "test2",
+                  "price": 10,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "ObservableArray@5[..].keys",
+                      "observers": Set {},
+                    },
+                    "name": "ObservableArray@5[..]",
+                    "pendingKeys": Map {
+                      "cheerio" => false,
+                      "$$typeof" => false,
+                      "nodeType" => false,
+                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                      "@@__IMMUTABLE_RECORD__@@" => false,
+                      "_isMockFunction" => false,
+                      "toJSON" => false,
+                    },
+                    "proxy": [Circular],
+                    "target": Object {
+                      "amount": 5,
+                      "description": "test",
+                      "id": 1,
+                      "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                      "name": "test2",
+                      "price": 10,
+                      Symbol(mobx administration): [Circular],
+                    },
+                    "values": Map {
+                      "id" => 1,
+                      "name" => "test2",
+                      "price" => 10,
+                      "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                      "description" => "test",
+                      "amount" => 5,
+                    },
+                  },
+                },
+                Object {
+                  "amount": 1,
+                  "description": "test2",
+                  "id": 2,
+                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                  "name": "test4",
+                  "price": 15,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "ObservableArray@5[..].keys",
+                      "observers": Set {},
+                    },
+                    "name": "ObservableArray@5[..]",
+                    "pendingKeys": Map {
+                      "cheerio" => false,
+                      "$$typeof" => false,
+                      "nodeType" => false,
+                      "@@__IMMUTABLE_ITERABLE__@@" => false,
+                      "@@__IMMUTABLE_RECORD__@@" => false,
+                      "_isMockFunction" => false,
+                      "toJSON" => false,
+                    },
+                    "proxy": [Circular],
+                    "target": Object {
+                      "amount": 1,
+                      "description": "test2",
+                      "id": 2,
+                      "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                      "name": "test4",
+                      "price": 15,
+                      Symbol(mobx administration): [Circular],
+                    },
+                    "values": Map {
+                      "id" => 2,
+                      "name" => "test4",
+                      "price" => 15,
+                      "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                      "description" => "test2",
+                      "amount" => 1,
+                    },
+                  },
+                },
+              ],
+              "total" => 65,
+            },
+          },
+        }
+      }
+    >
+      <div
+        className="container"
+      >
+        <div
+          id="checkout-wrapper"
+        >
+          <div
+            id="checkout-header"
+          >
+            <h2>
+              Your cart
+            </h2>
+          </div>
+          <div
+            className="clearfix"
+            id="checkout-table"
+          >
+            <div
+              className="clearfix"
+              id="checkout-table-header"
+            >
+              <div />
+              <div>
+                Name
+              </div>
+              <div>
+                Price
+              </div>
+              <div>
+                Amount
+              </div>
+              <div>
+                Action
+              </div>
+            </div>
+            <div
+              id="checkout-table-goods"
+            >
+              <inject-CheckoutProduct-with-cart
+                key="1"
+                product={
+                  Object {
+                    "amount": 5,
+                    "description": "test",
+                    "id": 1,
+                    "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                    "name": "test2",
+                    "price": 10,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "ObservableArray@5[..].keys",
+                        "observers": Set {},
+                      },
+                      "name": "ObservableArray@5[..]",
+                      "pendingKeys": Map {
+                        "cheerio" => false,
+                        "$$typeof" => false,
+                        "nodeType" => false,
+                        "@@__IMMUTABLE_ITERABLE__@@" => false,
+                        "@@__IMMUTABLE_RECORD__@@" => false,
+                        "_isMockFunction" => false,
+                        "toJSON" => false,
+                      },
+                      "proxy": [Circular],
+                      "target": Object {
+                        "amount": 5,
+                        "description": "test",
+                        "id": 1,
+                        "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                        "name": "test2",
+                        "price": 10,
+                        Symbol(mobx administration): [Circular],
+                      },
+                      "values": Map {
+                        "id" => 1,
+                        "name" => "test2",
+                        "price" => 10,
+                        "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                        "description" => "test",
+                        "amount" => 5,
+                      },
+                    },
+                  }
+                }
+              >
+                <CheckoutProduct
+                  cart={
+                    Cart {
+                      "cleanCart": [Function],
+                      "products": Array [
+                        Object {
+                          "amount": 5,
+                          "description": "test",
+                          "id": 1,
+                          "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                          "name": "test2",
+                          "price": 10,
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@5[..].keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@5[..]",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "amount": 5,
+                              "description": "test",
+                              "id": 1,
+                              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "name": "test2",
+                              "price": 10,
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 1,
+                              "name" => "test2",
+                              "price" => 10,
+                              "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "description" => "test",
+                              "amount" => 5,
+                            },
+                          },
+                        },
+                        Object {
+                          "amount": 1,
+                          "description": "test2",
+                          "id": 2,
+                          "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                          "name": "test4",
+                          "price": 15,
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@5[..].keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@5[..]",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "amount": 1,
+                              "description": "test2",
+                              "id": 2,
+                              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "name": "test4",
+                              "price": 15,
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 2,
+                              "name" => "test4",
+                              "price" => 15,
+                              "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "description" => "test2",
+                              "amount" => 1,
+                            },
+                          },
+                        },
+                      ],
+                      Symbol(mobx did run lazy initializers): true,
+                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                        "defaultEnhancer": [Function],
+                        "keysAtom": Atom$$1 {
+                          "diffValue": 0,
+                          "isBeingObserved": false,
+                          "isPendingUnobservation": false,
+                          "lastAccessedBy": 0,
+                          "lowestObserverState": 2,
+                          "name": "Cart@6.keys",
+                          "observers": Set {},
+                        },
+                        "name": "Cart@6",
+                        "target": [Circular],
+                        "values": Map {
+                          "products" => Array [
+                            Object {
+                              "amount": 5,
+                              "description": "test",
+                              "id": 1,
+                              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "name": "test2",
+                              "price": 10,
+                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                "defaultEnhancer": [Function],
+                                "keysAtom": Atom$$1 {
+                                  "diffValue": 0,
+                                  "isBeingObserved": false,
+                                  "isPendingUnobservation": false,
+                                  "lastAccessedBy": 0,
+                                  "lowestObserverState": 2,
+                                  "name": "ObservableArray@5[..].keys",
+                                  "observers": Set {},
+                                },
+                                "name": "ObservableArray@5[..]",
+                                "pendingKeys": Map {
+                                  "cheerio" => false,
+                                  "$$typeof" => false,
+                                  "nodeType" => false,
+                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                  "_isMockFunction" => false,
+                                  "toJSON" => false,
+                                },
+                                "proxy": [Circular],
+                                "target": Object {
+                                  "amount": 5,
+                                  "description": "test",
+                                  "id": 1,
+                                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "name": "test2",
+                                  "price": 10,
+                                  Symbol(mobx administration): [Circular],
+                                },
+                                "values": Map {
+                                  "id" => 1,
+                                  "name" => "test2",
+                                  "price" => 10,
+                                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "description" => "test",
+                                  "amount" => 5,
+                                },
+                              },
+                            },
+                            Object {
+                              "amount": 1,
+                              "description": "test2",
+                              "id": 2,
+                              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "name": "test4",
+                              "price": 15,
+                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                "defaultEnhancer": [Function],
+                                "keysAtom": Atom$$1 {
+                                  "diffValue": 0,
+                                  "isBeingObserved": false,
+                                  "isPendingUnobservation": false,
+                                  "lastAccessedBy": 0,
+                                  "lowestObserverState": 2,
+                                  "name": "ObservableArray@5[..].keys",
+                                  "observers": Set {},
+                                },
+                                "name": "ObservableArray@5[..]",
+                                "pendingKeys": Map {
+                                  "cheerio" => false,
+                                  "$$typeof" => false,
+                                  "nodeType" => false,
+                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                  "_isMockFunction" => false,
+                                  "toJSON" => false,
+                                },
+                                "proxy": [Circular],
+                                "target": Object {
+                                  "amount": 1,
+                                  "description": "test2",
+                                  "id": 2,
+                                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "name": "test4",
+                                  "price": 15,
+                                  Symbol(mobx administration): [Circular],
+                                },
+                                "values": Map {
+                                  "id" => 2,
+                                  "name" => "test4",
+                                  "price" => 15,
+                                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "description" => "test2",
+                                  "amount" => 1,
+                                },
+                              },
+                            },
+                          ],
+                          "cart" => Array [
+                            Object {
+                              "amount": 5,
+                              "description": "test",
+                              "id": 1,
+                              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "name": "test2",
+                              "price": 10,
+                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                "defaultEnhancer": [Function],
+                                "keysAtom": Atom$$1 {
+                                  "diffValue": 0,
+                                  "isBeingObserved": false,
+                                  "isPendingUnobservation": false,
+                                  "lastAccessedBy": 0,
+                                  "lowestObserverState": 2,
+                                  "name": "ObservableArray@5[..].keys",
+                                  "observers": Set {},
+                                },
+                                "name": "ObservableArray@5[..]",
+                                "pendingKeys": Map {
+                                  "cheerio" => false,
+                                  "$$typeof" => false,
+                                  "nodeType" => false,
+                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                  "_isMockFunction" => false,
+                                  "toJSON" => false,
+                                },
+                                "proxy": [Circular],
+                                "target": Object {
+                                  "amount": 5,
+                                  "description": "test",
+                                  "id": 1,
+                                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "name": "test2",
+                                  "price": 10,
+                                  Symbol(mobx administration): [Circular],
+                                },
+                                "values": Map {
+                                  "id" => 1,
+                                  "name" => "test2",
+                                  "price" => 10,
+                                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "description" => "test",
+                                  "amount" => 5,
+                                },
+                              },
+                            },
+                            Object {
+                              "amount": 1,
+                              "description": "test2",
+                              "id": 2,
+                              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "name": "test4",
+                              "price": 15,
+                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                "defaultEnhancer": [Function],
+                                "keysAtom": Atom$$1 {
+                                  "diffValue": 0,
+                                  "isBeingObserved": false,
+                                  "isPendingUnobservation": false,
+                                  "lastAccessedBy": 0,
+                                  "lowestObserverState": 2,
+                                  "name": "ObservableArray@5[..].keys",
+                                  "observers": Set {},
+                                },
+                                "name": "ObservableArray@5[..]",
+                                "pendingKeys": Map {
+                                  "cheerio" => false,
+                                  "$$typeof" => false,
+                                  "nodeType" => false,
+                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                  "_isMockFunction" => false,
+                                  "toJSON" => false,
+                                },
+                                "proxy": [Circular],
+                                "target": Object {
+                                  "amount": 1,
+                                  "description": "test2",
+                                  "id": 2,
+                                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "name": "test4",
+                                  "price": 15,
+                                  Symbol(mobx administration): [Circular],
+                                },
+                                "values": Map {
+                                  "id" => 2,
+                                  "name" => "test4",
+                                  "price" => 15,
+                                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "description" => "test2",
+                                  "amount" => 1,
+                                },
+                              },
+                            },
+                          ],
+                          "total" => 65,
+                        },
+                      },
+                    }
+                  }
+                  product={
+                    Object {
+                      "amount": 5,
+                      "description": "test",
+                      "id": 1,
+                      "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                      "name": "test2",
+                      "price": 10,
+                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                        "defaultEnhancer": [Function],
+                        "keysAtom": Atom$$1 {
+                          "diffValue": 0,
+                          "isBeingObserved": false,
+                          "isPendingUnobservation": false,
+                          "lastAccessedBy": 0,
+                          "lowestObserverState": 2,
+                          "name": "ObservableArray@5[..].keys",
+                          "observers": Set {},
+                        },
+                        "name": "ObservableArray@5[..]",
+                        "pendingKeys": Map {
+                          "cheerio" => false,
+                          "$$typeof" => false,
+                          "nodeType" => false,
+                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                          "@@__IMMUTABLE_RECORD__@@" => false,
+                          "_isMockFunction" => false,
+                          "toJSON" => false,
+                        },
+                        "proxy": [Circular],
+                        "target": Object {
+                          "amount": 5,
+                          "description": "test",
+                          "id": 1,
+                          "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                          "name": "test2",
+                          "price": 10,
+                          Symbol(mobx administration): [Circular],
+                        },
+                        "values": Map {
+                          "id" => 1,
+                          "name" => "test2",
+                          "price" => 10,
+                          "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                          "description" => "test",
+                          "amount" => 5,
+                        },
+                      },
+                    }
+                  }
+                >
+                  <div
+                    className="checkout-prod clearfix"
+                  >
+                    <div
+                      className="checkout-image"
+                    >
+                      <img
+                        className="img-responsive product-img"
+                        src="https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b"
+                      />
+                    </div>
+                    <div
+                      className="checkout-name"
+                    >
+                      <span
+                        className="vert-align"
+                      >
+                        test2
+                      </span>
+                    </div>
+                    <div
+                      className="checkout-price"
+                    >
+                      <span
+                        className="vert-align"
+                      >
+                        10
+                        €
+                      </span>
+                    </div>
+                    <div
+                      className="checkout-amount"
+                    >
+                      <span
+                        className="vert-align"
+                      >
+                        5
+                      </span>
+                    </div>
+                    <div
+                      className="checkout-actions"
+                    >
+                      <button
+                        className="btn btn-primary checkout-action vert-align hor-align"
+                        onClick={[Function]}
+                      >
+                        X
+                      </button>
+                    </div>
+                  </div>
+                </CheckoutProduct>
+              </inject-CheckoutProduct-with-cart>
+              <inject-CheckoutProduct-with-cart
+                key="2"
+                product={
+                  Object {
+                    "amount": 1,
+                    "description": "test2",
+                    "id": 2,
+                    "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                    "name": "test4",
+                    "price": 15,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "ObservableArray@5[..].keys",
+                        "observers": Set {},
+                      },
+                      "name": "ObservableArray@5[..]",
+                      "pendingKeys": Map {
+                        "cheerio" => false,
+                        "$$typeof" => false,
+                        "nodeType" => false,
+                        "@@__IMMUTABLE_ITERABLE__@@" => false,
+                        "@@__IMMUTABLE_RECORD__@@" => false,
+                        "_isMockFunction" => false,
+                        "toJSON" => false,
+                      },
+                      "proxy": [Circular],
+                      "target": Object {
+                        "amount": 1,
+                        "description": "test2",
+                        "id": 2,
+                        "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                        "name": "test4",
+                        "price": 15,
+                        Symbol(mobx administration): [Circular],
+                      },
+                      "values": Map {
+                        "id" => 2,
+                        "name" => "test4",
+                        "price" => 15,
+                        "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                        "description" => "test2",
+                        "amount" => 1,
+                      },
+                    },
+                  }
+                }
+              >
+                <CheckoutProduct
+                  cart={
+                    Cart {
+                      "cleanCart": [Function],
+                      "products": Array [
+                        Object {
+                          "amount": 5,
+                          "description": "test",
+                          "id": 1,
+                          "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                          "name": "test2",
+                          "price": 10,
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@5[..].keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@5[..]",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "amount": 5,
+                              "description": "test",
+                              "id": 1,
+                              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "name": "test2",
+                              "price": 10,
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 1,
+                              "name" => "test2",
+                              "price" => 10,
+                              "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "description" => "test",
+                              "amount" => 5,
+                            },
+                          },
+                        },
+                        Object {
+                          "amount": 1,
+                          "description": "test2",
+                          "id": 2,
+                          "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                          "name": "test4",
+                          "price": 15,
+                          Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                            "defaultEnhancer": [Function],
+                            "keysAtom": Atom$$1 {
+                              "diffValue": 0,
+                              "isBeingObserved": false,
+                              "isPendingUnobservation": false,
+                              "lastAccessedBy": 0,
+                              "lowestObserverState": 2,
+                              "name": "ObservableArray@5[..].keys",
+                              "observers": Set {},
+                            },
+                            "name": "ObservableArray@5[..]",
+                            "pendingKeys": Map {
+                              "cheerio" => false,
+                              "$$typeof" => false,
+                              "nodeType" => false,
+                              "@@__IMMUTABLE_ITERABLE__@@" => false,
+                              "@@__IMMUTABLE_RECORD__@@" => false,
+                              "_isMockFunction" => false,
+                              "toJSON" => false,
+                            },
+                            "proxy": [Circular],
+                            "target": Object {
+                              "amount": 1,
+                              "description": "test2",
+                              "id": 2,
+                              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "name": "test4",
+                              "price": 15,
+                              Symbol(mobx administration): [Circular],
+                            },
+                            "values": Map {
+                              "id" => 2,
+                              "name" => "test4",
+                              "price" => 15,
+                              "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "description" => "test2",
+                              "amount" => 1,
+                            },
+                          },
+                        },
+                      ],
+                      Symbol(mobx did run lazy initializers): true,
+                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                        "defaultEnhancer": [Function],
+                        "keysAtom": Atom$$1 {
+                          "diffValue": 0,
+                          "isBeingObserved": false,
+                          "isPendingUnobservation": false,
+                          "lastAccessedBy": 0,
+                          "lowestObserverState": 2,
+                          "name": "Cart@6.keys",
+                          "observers": Set {},
+                        },
+                        "name": "Cart@6",
+                        "target": [Circular],
+                        "values": Map {
+                          "products" => Array [
+                            Object {
+                              "amount": 5,
+                              "description": "test",
+                              "id": 1,
+                              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "name": "test2",
+                              "price": 10,
+                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                "defaultEnhancer": [Function],
+                                "keysAtom": Atom$$1 {
+                                  "diffValue": 0,
+                                  "isBeingObserved": false,
+                                  "isPendingUnobservation": false,
+                                  "lastAccessedBy": 0,
+                                  "lowestObserverState": 2,
+                                  "name": "ObservableArray@5[..].keys",
+                                  "observers": Set {},
+                                },
+                                "name": "ObservableArray@5[..]",
+                                "pendingKeys": Map {
+                                  "cheerio" => false,
+                                  "$$typeof" => false,
+                                  "nodeType" => false,
+                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                  "_isMockFunction" => false,
+                                  "toJSON" => false,
+                                },
+                                "proxy": [Circular],
+                                "target": Object {
+                                  "amount": 5,
+                                  "description": "test",
+                                  "id": 1,
+                                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "name": "test2",
+                                  "price": 10,
+                                  Symbol(mobx administration): [Circular],
+                                },
+                                "values": Map {
+                                  "id" => 1,
+                                  "name" => "test2",
+                                  "price" => 10,
+                                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "description" => "test",
+                                  "amount" => 5,
+                                },
+                              },
+                            },
+                            Object {
+                              "amount": 1,
+                              "description": "test2",
+                              "id": 2,
+                              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "name": "test4",
+                              "price": 15,
+                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                "defaultEnhancer": [Function],
+                                "keysAtom": Atom$$1 {
+                                  "diffValue": 0,
+                                  "isBeingObserved": false,
+                                  "isPendingUnobservation": false,
+                                  "lastAccessedBy": 0,
+                                  "lowestObserverState": 2,
+                                  "name": "ObservableArray@5[..].keys",
+                                  "observers": Set {},
+                                },
+                                "name": "ObservableArray@5[..]",
+                                "pendingKeys": Map {
+                                  "cheerio" => false,
+                                  "$$typeof" => false,
+                                  "nodeType" => false,
+                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                  "_isMockFunction" => false,
+                                  "toJSON" => false,
+                                },
+                                "proxy": [Circular],
+                                "target": Object {
+                                  "amount": 1,
+                                  "description": "test2",
+                                  "id": 2,
+                                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "name": "test4",
+                                  "price": 15,
+                                  Symbol(mobx administration): [Circular],
+                                },
+                                "values": Map {
+                                  "id" => 2,
+                                  "name" => "test4",
+                                  "price" => 15,
+                                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "description" => "test2",
+                                  "amount" => 1,
+                                },
+                              },
+                            },
+                          ],
+                          "cart" => Array [
+                            Object {
+                              "amount": 5,
+                              "description": "test",
+                              "id": 1,
+                              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "name": "test2",
+                              "price": 10,
+                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                "defaultEnhancer": [Function],
+                                "keysAtom": Atom$$1 {
+                                  "diffValue": 0,
+                                  "isBeingObserved": false,
+                                  "isPendingUnobservation": false,
+                                  "lastAccessedBy": 0,
+                                  "lowestObserverState": 2,
+                                  "name": "ObservableArray@5[..].keys",
+                                  "observers": Set {},
+                                },
+                                "name": "ObservableArray@5[..]",
+                                "pendingKeys": Map {
+                                  "cheerio" => false,
+                                  "$$typeof" => false,
+                                  "nodeType" => false,
+                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                  "_isMockFunction" => false,
+                                  "toJSON" => false,
+                                },
+                                "proxy": [Circular],
+                                "target": Object {
+                                  "amount": 5,
+                                  "description": "test",
+                                  "id": 1,
+                                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "name": "test2",
+                                  "price": 10,
+                                  Symbol(mobx administration): [Circular],
+                                },
+                                "values": Map {
+                                  "id" => 1,
+                                  "name" => "test2",
+                                  "price" => 10,
+                                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "description" => "test",
+                                  "amount" => 5,
+                                },
+                              },
+                            },
+                            Object {
+                              "amount": 1,
+                              "description": "test2",
+                              "id": 2,
+                              "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                              "name": "test4",
+                              "price": 15,
+                              Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                                "defaultEnhancer": [Function],
+                                "keysAtom": Atom$$1 {
+                                  "diffValue": 0,
+                                  "isBeingObserved": false,
+                                  "isPendingUnobservation": false,
+                                  "lastAccessedBy": 0,
+                                  "lowestObserverState": 2,
+                                  "name": "ObservableArray@5[..].keys",
+                                  "observers": Set {},
+                                },
+                                "name": "ObservableArray@5[..]",
+                                "pendingKeys": Map {
+                                  "cheerio" => false,
+                                  "$$typeof" => false,
+                                  "nodeType" => false,
+                                  "@@__IMMUTABLE_ITERABLE__@@" => false,
+                                  "@@__IMMUTABLE_RECORD__@@" => false,
+                                  "_isMockFunction" => false,
+                                  "toJSON" => false,
+                                },
+                                "proxy": [Circular],
+                                "target": Object {
+                                  "amount": 1,
+                                  "description": "test2",
+                                  "id": 2,
+                                  "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "name": "test4",
+                                  "price": 15,
+                                  Symbol(mobx administration): [Circular],
+                                },
+                                "values": Map {
+                                  "id" => 2,
+                                  "name" => "test4",
+                                  "price" => 15,
+                                  "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                                  "description" => "test2",
+                                  "amount" => 1,
+                                },
+                              },
+                            },
+                          ],
+                          "total" => 65,
+                        },
+                      },
+                    }
+                  }
+                  product={
+                    Object {
+                      "amount": 1,
+                      "description": "test2",
+                      "id": 2,
+                      "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                      "name": "test4",
+                      "price": 15,
+                      Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                        "defaultEnhancer": [Function],
+                        "keysAtom": Atom$$1 {
+                          "diffValue": 0,
+                          "isBeingObserved": false,
+                          "isPendingUnobservation": false,
+                          "lastAccessedBy": 0,
+                          "lowestObserverState": 2,
+                          "name": "ObservableArray@5[..].keys",
+                          "observers": Set {},
+                        },
+                        "name": "ObservableArray@5[..]",
+                        "pendingKeys": Map {
+                          "cheerio" => false,
+                          "$$typeof" => false,
+                          "nodeType" => false,
+                          "@@__IMMUTABLE_ITERABLE__@@" => false,
+                          "@@__IMMUTABLE_RECORD__@@" => false,
+                          "_isMockFunction" => false,
+                          "toJSON" => false,
+                        },
+                        "proxy": [Circular],
+                        "target": Object {
+                          "amount": 1,
+                          "description": "test2",
+                          "id": 2,
+                          "image": "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                          "name": "test4",
+                          "price": 15,
+                          Symbol(mobx administration): [Circular],
+                        },
+                        "values": Map {
+                          "id" => 2,
+                          "name" => "test4",
+                          "price" => 15,
+                          "image" => "https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b",
+                          "description" => "test2",
+                          "amount" => 1,
+                        },
+                      },
+                    }
+                  }
+                >
+                  <div
+                    className="checkout-prod clearfix"
+                  >
+                    <div
+                      className="checkout-image"
+                    >
+                      <img
+                        className="img-responsive product-img"
+                        src="https://www.barbora.lt/api/Images/GetInventoryImage?id=0198db1a-2a5e-47df-94b0-562be3c7fa8b"
+                      />
+                    </div>
+                    <div
+                      className="checkout-name"
+                    >
+                      <span
+                        className="vert-align"
+                      >
+                        test4
+                      </span>
+                    </div>
+                    <div
+                      className="checkout-price"
+                    >
+                      <span
+                        className="vert-align"
+                      >
+                        15
+                        €
+                      </span>
+                    </div>
+                    <div
+                      className="checkout-amount"
+                    >
+                      <span
+                        className="vert-align"
+                      >
+                        1
+                      </span>
+                    </div>
+                    <div
+                      className="checkout-actions"
+                    >
+                      <button
+                        className="btn btn-primary checkout-action vert-align hor-align"
+                        onClick={[Function]}
+                      >
+                        X
+                      </button>
+                    </div>
+                  </div>
+                </CheckoutProduct>
+              </inject-CheckoutProduct-with-cart>
+            </div>
+          </div>
+          <div
+            className="clearfix"
+            id="checkout-footer"
+          >
+            <span
+              id="checkout-sum-wrap"
+            >
+              Total: $
+              65.00
+            </span>
+            <button
+              className="float-right btn btn-success"
+              onClick={[Function]}
+              type="button"
+            >
+              Checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </Checkout>
+  </inject-Checkout-with-cart>
+</Provider>
+`;
