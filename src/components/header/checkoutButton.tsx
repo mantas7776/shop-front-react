@@ -3,7 +3,7 @@ import { Switch, Route, Link } from 'react-router-dom';
 
 const CheckoutActiveButton: React.FunctionComponent = () => {
 	return (
-		<Link to="/" className="checkout checkout-active">
+		<Link to="/" id="checkout" className="checkout-active">
 			<button>🛒</button>
 		</Link>
 	);
@@ -11,7 +11,7 @@ const CheckoutActiveButton: React.FunctionComponent = () => {
 
 const CheckoutInactiveButton: React.FunctionComponent = () => {
 	return (
-		<Link to="/checkout" className="checkout">
+		<Link to="/checkout" id="checkout">
 			<button>🛒</button>
 		</Link>
 	);

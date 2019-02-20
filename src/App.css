@@ -2,41 +2,41 @@
 @import url('~toastr/build/toastr.css');
 
 @font-face {
-  font-family: 'Varela Round';
-  src: url(./fonts/VarelaRound-Regular.ttf);
+	font-family: 'Varela Round';
+	src: url(./fonts/VarelaRound-Regular.ttf);
 }
 
 body {
-  font-family: 'Varela Round';
-  margin: 0;
+	font-family: 'Varela Round';
+	margin: 0;
 }
 
 .container {
-  padding-top: 30px;
-  padding-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .img-responsive {
-  max-width: 100%;
-  max-height: 100%;
+	max-width: 100%;
+	max-height: 100%;
 }
 
 a {
-  text-decoration: none;
-  color: initial;
+	text-decoration: none;
+	color: initial;
 }
 
 a:hover {
-  text-decoration: none;
-  color: initial;
+	text-decoration: none;
+	color: initial;
 }
 
 .hor-align {
-  position: absolute;
-  transform: translateX(-50%);
-  left: 50% !important;
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50% !important;
 }
 
 .hor-align.vert-align {
-  transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
