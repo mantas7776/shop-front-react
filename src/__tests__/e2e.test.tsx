@@ -18,7 +18,7 @@ it('Should add to cart and checkout', async () => {
 	let addToCartBtn = await input!.$('.btn');
 	await addToCartBtn!.click();
 
-	await page.click('.checkout');
+	await page.click('#checkout');
 	await page.waitForSelector('#checkout-sum-wrap');
 	let sumwrap = await page.$eval('#checkout-sum-wrap', el => el.innerHTML);
 	expect(sumwrap).toBe('Total: $2.99');
